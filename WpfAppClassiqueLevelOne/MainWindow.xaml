@@ -7,11 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Height="50" Width="100" Content="No" FontSize="20" Foreground="Yellow" Click="Button_Click">
+        <Button Height="40" Width="80" Content="No" FontSize="20" Foreground="Yellow" Click="Button_Click">
             <Button.Background>
-                <LinearGradientBrush>
-                    <GradientStop Color="DarkGreen" Offset="0" />
-                    <GradientStop Color="LightGreen" Offset="1"/>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1493C3" Offset="0.508"/>
+                    <GradientStop Color="#FF247A24" Offset="0.713"/>
+                    <GradientStop Color="#FF4DAC4D" Offset="0.62"/>
+                    <GradientStop Color="#FF045F04" Offset="0.312"/>
+                    <GradientStop Color="#FF339233" Offset="0.539"/>
+                    <GradientStop Color="#FF339233" Offset="0.539"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>

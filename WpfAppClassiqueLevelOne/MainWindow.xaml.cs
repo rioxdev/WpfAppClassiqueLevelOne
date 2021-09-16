@@ -23,7 +23,7 @@ namespace WpfAppClassiqueLevelOne
         public MainWindow()
         {
             InitializeComponent();
-            RenderButton();
+            //RenderButton();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
