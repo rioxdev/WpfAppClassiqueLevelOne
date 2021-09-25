@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\dev\WpfAppClassiqueLevelOne\WpfAppClassiqueLevelOne\App.xaml
-11151548125
+6-1767010480
 
-61522651010
+111352230835
 13152784993
-MainWindow.xaml;
+MainWindow.xaml;WinCanvas.xaml;WinGrid.xaml;WinImage.xaml;WinStackPanel.xaml;WinWrapPanel.xaml;
 
-True
+False
 

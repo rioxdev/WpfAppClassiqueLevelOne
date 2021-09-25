@@ -55,6 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="WinCanvas.xaml.cs">
+      <DependentUpon>WinCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinGrid.xaml.cs">
+      <DependentUpon>WinGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinImage.xaml.cs">
+      <DependentUpon>WinImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinStackPanel.xaml.cs">
+      <DependentUpon>WinStackPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinWrapPanel.xaml.cs">
+      <DependentUpon>WinWrapPanel.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +82,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="WinCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinImage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinStackPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinWrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +128,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sary\deux.jpg" />
+    <Resource Include="Sary\trois.jpg" />
+    <Resource Include="Sary\un.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sary\quatre.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
